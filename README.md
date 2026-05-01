@@ -1,6 +1,6 @@
 # Telegram Finance Bot
 
-A personal finance bot for Telegram, built for AWS Lambda with DynamoDB.
+A personal expenses tracker for Telegram, built for AWS Lambda with DynamoDB.
 
 The bot lets you track expenses, income, history, and monthly/yearly summaries from Telegram commands. The user-facing bot messages are in Portuguese.
 
@@ -64,9 +64,3 @@ Do not commit real tokens, `.env` files, packaged Lambda folders, or deployment 
 3. Create or update the AWS Lambda function.
 4. Connect API Gateway to the Lambda function.
 5. Register the API Gateway URL as the Telegram webhook.
-
-## Local Tests
-
-```bash
-python -m unittest discover tests
-```
