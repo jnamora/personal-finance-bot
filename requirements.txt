@@ -1,0 +1,8 @@
+# AWS Lambda requirements for Telegram Finance Bot
+# Note: boto3 is already included in AWS Lambda runtime
+
+# HTTP requests for Telegram API
+requests==2.31.0
+
+# AWS SDK (already available in Lambda, but listed for local development)
+boto3==1.34.34

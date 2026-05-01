@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+*.env
+
+# AWS Lambda build artifacts
+lambda-package/
+*.zip
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
